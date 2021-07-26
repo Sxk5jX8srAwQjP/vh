@@ -31,3 +31,13 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
       - create button
         - price
         - create resume
+    
+    + B1.2
+      + build main block
+        + create sectons
+          + hero
+          + how it works
+          + reviews
+          + companies
+          + cta-banner
+          + template
