@@ -37,7 +37,10 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
         + create sectons
           + hero
           + how it works
-          + reviews
-          + companies
-          + cta-banner
-          + template
+          - reviews
+          - companies
+          - cta-banner
+          - template
+          
+    +F1.1
+      - fotter page-fotter-container
