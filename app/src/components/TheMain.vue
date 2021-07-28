@@ -13,7 +13,32 @@
             </div>
             <div class="page--hero__background"></div>
         </section>
-        <section class="page--body page--how-it-works"><p>section page--body</p></section>
+        <section class="page--body page--how-it-works">
+            <ul class="how-it-works">
+                <li class="how-it-works__item page--box" href="https://x.com">
+                    <i class="how-it-works__icon">
+                        <img src="/assets/images/icon/rating.svg" alt="rating">
+                    </i>
+                    <h2 class="how-it-works__title">Быстро и легко</h2>
+                    <p>З нашим онлайн-конструктором резюме, будь-яка людина може швидко створити професійне резюме. Введіть свої особисті дані та почніть заповнювати резюме. Насамкінець, виберіть один з 36 доступних шаблонів і завантажте Ваше резюме.</p>
+                </li>
+                <li class="how-it-works__item page--box" href="https://x.com">
+                    <i class="how-it-works__icon">
+                        <img src="/assets/images/icon/recruitment.svg" alt="rating">
+                    </i>
+                    <h2 class="how-it-works__title">Быстро и легко</h2>
+                    <p>З нашим онлайн-конструктором резюме, будь-яка людина може швидко створити професійне резюме. Введіть свої особисті дані та почніть заповнювати резюме. Насамкінець, виберіть один з 36 доступних шаблонів і завантажте Ваше резюме.</p>
+                </li>
+                <li class="how-it-works__item page--box" href="https://x.com">
+                    <i class="how-it-works__icon">
+                        <img src="/assets/images/icon/profiles.svg" alt="rating">
+                    </i>
+                    <h2 class="how-it-works__title">Быстро и легко</h2>
+                    <p>З нашим онлайн-конструктором резюме, будь-яка людина може швидко створити професійне резюме. Введіть свої особисті дані та почніть заповнювати резюме. Насамкінець, виберіть один з 36 доступних шаблонів і завантажте Ваше резюме.</p>
+                </li>
+                
+            </ul>
+        </section>
         <section class="page--body page--reviews"><p>section page--body</p></section>
         <section class="page--section--companies"><p>section page--body</p></section>
         <section class="page--body page--cta-banner"><p>section page--body</p></section>
@@ -26,6 +51,103 @@
 </template>
 
 <style scoped>
+p {
+	font-weight: 400;
+	padding: 0 0 20px;
+	line-height: 28px;
+}
+.how-it-works__item p {
+	text-align: left;
+	padding: 0 0 44px;
+}
+h2, h3 {
+	font-size: 18px;
+}
+h2, h3, h4, h5 {
+	font-weight: 600;
+	color: #444;
+	/* padding: 0 0 10px; */
+}
+.how-it-works__title {
+	display: block;
+	text-align: left;
+	padding: 40px 0 10px;
+}
+em, i {
+	font-style: italic;
+}
+.how-it-works__icon img {
+	display: inline-block;
+	position: relative;
+	height: 75px;
+	width: 75px;
+}
+
+.page--box {
+	background: #fff;
+	box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);
+}
+
+.how-it-works__item {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	min-height: 100px;
+	text-align: center;
+	margin: 0 0 25px;
+	padding: 0 30px 0 160px;
+	border-radius: 4px;
+}
+
+.page--how-it-works {
+	margin-top: -20px;
+	z-index: 9999;
+	padding-bottom: 40px;
+	/* background-color: grey; */
+}
+.how-it-works__icon {
+	position: absolute;
+	top: 50%;
+	height: 80px;
+	width: 80px;
+	background: #f0f1ff;
+	border-radius: 50%;
+	left: 40px;
+	padding: 0;
+	margin: -40px 20px 0 0;
+	text-align: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+ul{
+    list-style-type: disc;
+    list-style-position: outside;
+    line-height:28px;
+    /* list-style:none; */
+    /* background-color: orange; */
+} 
+
+.page--box{
+    background: #fff;
+    box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);
+}
+.how-it-works{
+    display:flex;
+    flex-flow: row wrap;
+    padding:0;
+}
+
+.page-main__inner .page-main{
+    z-index: 99;
+}
+.page--how-it-works{
+    margin-top:-20px;
+    z-index:9999;
+    padding-bottom: 40px;
+}
+
 .page-main__inner{
     z-index:999;
     width:100%;
@@ -37,14 +159,10 @@
     box-sizing: border-box;
 }
 
-.page-main__inner .page--hero{
-    z-index: 999;
-    transition: all .5s ease;
-}
-
 .page--hero__background{
 position: absolute;
-background-color: red;
+background: #2dc46a;
+/* background-color: red; */
 z-index:99;
 bottom: -100px;
 left:0;
@@ -107,6 +225,8 @@ p{
     display: block;
     position:relative;
     padding: 30px 30px 100px;
+    border-radius: 4px;
+    /* background-color: grey; */
 }
 
 .page--hero{

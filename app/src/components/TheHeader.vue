@@ -39,7 +39,7 @@ ol, ul {
     list-style-type: disc;
     list-style-position: outside;
     line-height: 28px;
-    background-color: palegreen;
+    /* background-color: palegreen; */
 }
 .page-header__menu {
     float:right;
