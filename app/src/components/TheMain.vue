@@ -238,7 +238,7 @@ p{
     text-align:center;
 }
 .page-main{
-    background-color: pink;
+    background-color:#fff;
     position: relative;
     padding-top: 65px;
     top:0;

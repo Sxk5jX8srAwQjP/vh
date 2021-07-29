@@ -4,7 +4,7 @@
   <the-main></the-main>
   <the-footer></the-footer>
   <!-- <footer></footer> -->
-  <div class="light-box">light-box block</div>
+  <!-- <div class="light-box">light-box block</div> -->
 </div>
 </template>
 
@@ -37,10 +37,14 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
 body{
 position: relative;
 overflow-x: hidden;
-background-color: red;
+background-color: #fff;
 color: #707070;
 font:16px Camphor, Open, Sans, Segoe Ui, sans-serif;
 text-rendering: optimizeLegibility;
 }
-
+ul{
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
 </style>
